@@ -1,0 +1,71 @@
+/*global styles*/
+
+*{
+	margin: 0; padding: 0; list-style-type: none;
+}
+
+.cf{
+	clear: both;
+}
+a{
+	color: #9E1603; 
+}
+
+/*main styles*/
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+	background-image: url('../images/bg.png');
+	height: 600px;
+	max-width: 1280px;
+	margin: 30px auto;
+}
+.container .header{
+	text-align: center;
+	color:black;
+	padding-top: 200px;
+	font-style: italic; 
+}
+
+.container .nav ul{
+	text-align: center;
+	padding-top: 20px;
+		
+}
+.container .nav ul li{
+	display: inline-block;
+}
+.container .nav .ul .divider{
+	display: inline-block;
+	margin-left: 10px;
+}
+.container .nav .mail-button{
+	text-align: center;
+	color: #571418;
+	padding: 20px;
+	margin-top: 10px;
+}
+.container .nav .mail-button a{
+	border: 1px solid black;
+	padding: 5px;
+	color: blue;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.container .nav .mail-button a:hover{
+	color: #9E1603;
+	text-decoration: underline;
+}
+.container .footer p{
+	text-align: center;
+}
+.container .footer ul{
+	text-align: center;
+}
+.container .footer ul li{
+	padding: 20px 15px;
+	display: inline-block;
+	font: bold;
+}

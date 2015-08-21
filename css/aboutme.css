@@ -1,0 +1,39 @@
+/*global styles*/
+
+*{
+	margin: 0; padding: 0; list-style-type: none;
+}
+.cf{
+	clear: both;
+}
+body {
+	font-family: 'Open Sans', sans-serif; font-size: 18px;
+ }
+
+/*main styles*/
+.container{
+	max-width: 650px;  border: 2px solid black; margin: 50px auto; background-color: #eee; height: 500px;    padding: 0 15px 15px 15px;
+}
+.container .block1{
+	    padding: 20px 0;
+}
+.container .block1 h2{
+	 font-style: italic; float: left; margin-top: 10px;
+}
+.container .block1 .nav ul{
+	float: right; margin-top: 5px;
+}
+.container .block1 .nav ul li{
+	display: inline-block;
+	padding-right: 10px;
+	margin: 10px 10px;
+}
+.container .block2{
+		width: 640px; margin: 10px auto; 
+}
+.container .block2 p{
+	float: left; width: 300px; margin-top: 10px; color: #9E1603; text-align: justify;  
+}
+.container .block2 .block2-right{
+	float: right; 
+}
